@@ -7,4 +7,8 @@ chmod +x stunnel-openvpn-install.sh
 ./stunnel-openvpn-install.sh
 ```
 
+Импорт сертификатов в домашнюю директорию - C:\Users\User\
+``` 
+scp root@server_ip:"/tmp/{eakj-*,stunnel-server.crt,client.ovpn}" .
+``` 
 
